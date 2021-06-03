@@ -1,0 +1,902 @@
+El término función de Green se usa para designar a un operador lineal K que tiene forma de integral, siendo el núcleo de este operador integral la función de Green propiamente dicha. Para explicar qué es la función de Green consideremos un operador diferencial lineal L que actúa sobre cierto espacio de funciones definidas sobre una variedad diferenciable M, y pongamos que pretendemos resolver la ecuación diferencial
+Conviene añadir algunas precisiones al planteamiento informal que hemos presentado
+Si el núcleo de L no es trivial, entonces la función de Green no es única, aunque en la práctica una combinación de las simetrías del problema, las condiciones de contorno y otros criterios prácticos externos nos proporcionan una única función de Green.
+La función de Green G usualmente no es una Función matemática ordinaria sino que puede ser una distribución o función generalizada.
+No cualquier operador diferencial lineal L admite función de Green. En el caso más general K es sólo un inverso por la derecha de L.
+Las funciones de Green son muy útiles en teoría de la materia condensada donde permiten resolver la ecuación de difusión y también en mecánica cuántica donde la función de Green del hamiltoniano es un concepto clave, para el desarrollo de la teoría cuántica de campos.
+La presencia de carga eléctrica en una región del espacio modifica las características de dicho espacio dando lugar a un campo eléctrico. Así pues, podemos considerar un campo eléctrico como una región del espacio cuyas propiedades han sido modificadas por la presencia de una carga eléctrica, de tal modo que al introducir en dicho campo eléctrico una nueva carga eléctrica, ésta experimentará una fuerza.
+El campo eléctrico se representa matemáticamente mediante el vector campo eléctrico, definido como el cociente entre la fuerza eléctrica que experimenta una carga testigo y el valor de esa carga testigo una carga testigo positiva.
+La definición más intuitiva del campo eléctrico se puede dar mediante la ley de Coulomb. Esta ley, una vez generalizada, permite expresar el campo entre distribuciones de carga en reposo relativo. Sin embargo, para cargas en movimiento se requiere una definición más formal y completa, se requiere el uso de cuadrivectores y el principio de mínima acción. A continuación se describen ambas.
+Debe tenerse presente de todas maneras que desde el punto de vista relativista, la definición de campo eléctrico es relativa y no absoluta, ya que observadores en movimiento relativo entre sí medirán campos eléctricos o partes eléctricas del campo electromagnético diferentes, por lo que el campo eléctrico medido dependerá del sistema de referencia escogido.
+La ley anterior presuponía que la posición de una partícula en un instante dado, hace que su campo eléctrico afecte en el mismo instante a cualquier otra carga. Ese tipo de interacciones en las que el efecto sobre el resto de partículas parece depender solo de la posición de la partícula causante sin importar la distancia entre las partículas se denomina en física acción a distancia. Si bien la noción de acción a distancia fue aceptada inicialmente por el propio Newton, experimentos más cuidados a lo largo del siglo XIX llevaron a desechar dicha noción como no-realista. En ese contexto se pensó que el campo eléctrico no solo era un artificio matemático sino un ente físico que se propaga a una velocidad finita la velocidad de la luz hasta afectar a otras partículas. Esa idea conllevaba modificar la ley de Coulomb de acuerdo con los requerimientos de la teoría de la relatividad y dotar de entidad física al campo eléctrico.1​ Así, el campo eléctrico es una distorsión electromagnética que sufre el espacio-tiempo debido a la presencia de una carga. Considerando esto se puede obtener una expresión del campo eléctrico cuando este solo depende de la distancia entre las cargas caso electrostático
+Para conocer una de las propiedades del campo eléctrico se estudia qué ocurre con el flujo de este al atravesar una superficie gaussiana cerrada, es decir una superficie tal que en cada trozo infinitesimal de superficie esté bien definida su orientación.
+Un campo eléctrico estático puede ser representado geométricamente con líneas tales que en cada punto el campo vectorial sea tangente a dichas líneas, a estas líneas se las conoce como líneas de campo. Matemáticamente las líneas de campo son las curvas integrales del campo vectorial. Las líneas de campo se utilizan para crear una representación gráfica del campo y pueden ser tantas como sea necesario visualizar.
+Las líneas de campo son líneas perpendiculares a la superficie del cuerpo, de manera que su tangente geométrica en un punto coincide con la dirección del campo en ese punto. Esto es una consecuencia directa de la ley de Gauss, es decir encontramos que la mayor variación direccional en el campo se dirige perpendicularmente a la carga. Al unir los puntos en los que el campo eléctrico es de igual magnitud, se obtiene lo que se conoce como superficies equipotenciales, son aquellas donde el potencial tiene el mismo valor numérico. En el caso estático al ser el campo eléctrico un campo irrotacional las líneas de campo nunca serán cerradas cosa que sí puede suceder en el caso dinámico, donde el rotacional del campo eléctrico es igual a la variación temporal del campo magnético cambiada de signo, por tanto una línea de campo eléctrico cerrado requiere un campo magnético variable, cosa imposible en el caso estático.
+En el caso dinámico pueden definirse igualmente las líneas solo que el patrón de líneas variará de un instante a otro del tiempo, es decir, las líneas de campo al igual que las cargas serán móviles.
+La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas. Los sistemas atómicos y subatómicos, sus interacciones con la radiación electromagnética y otras fuerzas, en términos de cantidades observables. Se basa en la observación de que todas las formas de energía se liberan en unidades discretas o paquetes llamados cuantos. Estos cuantos tienen la característica de pertenecer todos a un grupo específico de bosones, estando cada uno ligado a una interacción fundamental. Ej el fotón pertenece a la electromagnética. Sorprendentemente, la teoría cuántica solo permite normalmente cálculos probabilísticos o estadísticos de las características observadas de las partículas elementales, entendidos en términos de funciones de onda. La ecuación de Schrödinger desempeña el papel en la mecánica cuántica que las leyes de Newton y la conservación de la energía hacen en la mecánica clásica. Es decir, la predicción del comportamiento futuro de un sistema dinámico y es una ecuación de onda en términos de una función de onda la que predice analíticamente la probabilidad precisa de los eventos o resultados.
+En teorías anteriores de la física clásica, la energía era tratada únicamente como un fenómeno continuo, en tanto que la materia se supone que ocupa una región muy concreta del espacio y que se mueve de manera continua. Según la teoría cuántica, la energía se emite y se absorbe en cantidades discretas y minúsculas. Un paquete individual de energía, llamado cuanto, en algunas situaciones se comporta como una partícula de materia. Por otro lado, se encontró que las partículas exponen algunas propiedades ondulatorias cuando están en movimiento y ya no son vistas como localizadas en una región determinada, sino más bien extendidas en cierta medida. La luz u otra radiación emitida o absorbida por un átomo solo tiene ciertas frecuencias o longitudes de onda, como puede verse en la línea del espectro asociado al elemento químico representado por tal átomo. La teoría cuántica demuestra que tales frecuencias corresponden a niveles definidos de los cuantos de luz, o fotones, y es el resultado del hecho de que los electrones del átomo solo pueden tener ciertos valores de energía permitidos. Cuando un electrón pasa de un nivel permitido a otro, una cantidad de energía es emitida o absorbida, cuya frecuencia es directamente proporcional a la diferencia de energía entre los dos niveles.
+La mecánica cuántica surge tímidamente en los inicios del siglo dentro de las tradiciones más profundas de la física para dar una solución a problemas para los que las teorías conocidas hasta el momento habían agotado su capacidad de explicar, como la llamada catástrofe ultravioleta en la radiación de cuerpo negro predicha por la física estadística clásica y la inestabilidad de los átomos en el modelo atómico de Rutherford. La primera propuesta de un principio propiamente cuántico se debe a Max Planck en 1900, para resolver el problema de la radiación de cuerpo negro, que fue duramente cuestionado, hasta que Albert Einstein lo convierte en el principio que exitosamente pueda explicar el efecto fotoeléctrico. Las primeras formulaciones matemáticas completas de la mecánica cuántica no se alcanzan hasta mediados de la década de 1920, sin que hasta el día de hoy se tenga una interpretación coherente de la teoría, en particular del problema de la medición.
+El formalismo de la mecánica cuántica se desarrolló durante la década de 1920. En 1924, Louis de Broglie propuso que, al igual que las ondas de luz presentan propiedades de partículas, como ocurre en el efecto fotoeléctrico, las partículas, también presentan propiedades ondulatorias. Dos formulaciones diferentes de la mecánica cuántica se presentaron después de la sugerencia de Broglie. En 1926, la mecánica ondulatoria de Erwin Schrödinger implica la utilización de una entidad matemática, la función de onda, que está relacionada con la probabilidad de encontrar una partícula en un punto dado en el espacio. En 1925, la mecánica matricial de Werner Heisenberg no hace mención alguna de las funciones de onda o conceptos similares, pero ha demostrado ser matemáticamente equivalente a la teoría de Schrödinger. Un descubrimiento importante de la teoría cuántica es el principio de incertidumbre, enunciado por Heisenberg en 1927, que pone un límite teórico absoluto en la precisión de ciertas mediciones. Como resultado de ello, la asunción clásica de los científicos de que el estado físico de un sistema podría medirse exactamente y utilizarse para predecir los estados futuros tuvo que ser abandonada. Esto supuso una revolución filosófica y dio pie a numerosas discusiones entre los más grandes físicos de la época.
+La mecánica cuántica propiamente dicha no incorpora a la relatividad en su formulación matemática. La parte de la mecánica cuántica que incorpora elementos relativistas de manera formal para abordar diversos problemas se conoce como mecánica cuántica relativista o ya, en forma más correcta y acabada, teoría cuántica de campos que incluye a su vez a la electrodinámica cuántica, cromodinámica cuántica y teoría electrodébil dentro del modelo estándar​ y más generalmente, la teoría cuántica de campos en espacio-tiempo curvo. La única interacción elemental que no se ha podido cuantizar hasta el momento ha sido la interacción gravitatoria. Este problema constituye entonces uno de los mayores desafíos de la física del siglo . La mecánica cuántica se combinó con la teoría de la relatividad en la formulación de Paul Dirac de 1928, lo que, además, predijo la existencia de antipartículas. Otros desarrollos de la teoría incluyen la estadística cuántica, presentada en una forma por Einstein y Bose la estadística de Bose-Einstein y en otra forma por Dirac y Enrico Fermi la estadística de Fermi-Dirac la electrodinámica cuántica, interesada en la interacción entre partículas cargadas y los campos electromagnéticos, su generalización, la teoría cuántica de campos y la electrónica cuántica.
+La mecánica cuántica proporciona el fundamento de la fenomenología del átomo, de su núcleo y de las partículas elementales lo cual requiere necesariamente el enfoque relativista. También su impacto en teoría de la información, criptografía y química ha sido decisivo entre esta misma.
+asdf
+Y ahí entra el tema filosófico si querés si la computadora está 90% segura de q en los próximos 3 días vas a cometer un crimen, es lógico q te encierren preventivamente para un tratamiento psicológico
+Mmmmmmm no se
+Depende de la sociedad si lo ve bien o no
+Ponele ahora sería un delito de lesa humanidad
+Está muy buena la serie
+No puedo ver mucho capitulos seguidos
+Te deja pensando una banda
+Es lo que digo
+Sip y si la Volves a ver Volves a encontrar cosas
+Ponele en el capítulo 1 estaban por matar a una mina y no estaba mal
+La mina no estaba mal
+El sistema decía que la tenían que matar, la detective los paro y al poco tiempo la mina estaba normal
+El humano es simple y complejo a la vez tendría que ser una maravilla de computadora para hacer eso
+Okey
+Ganaste
+Para cuando diga yo si creo en las hadas
+Y me respondía creo creo
+Algún episodio de los teletubbies
+Porque te odias tanto
+Deja que reformule
+Jajajajaja Todo comenzó cuando naci
+Ese es el tipico ejemplo del problema que se entrega en blanco y decis confio en que mas o menos lo entendí y que no va a estar en el parcial
+Nada vale tanto como para que me siente a resolver algo con esa matriz
+Hasta me senté a hacerlo en matlab
+Y no hay caso
+Pero la app de internet me da algo distinto que a la profesora
+No te preocupes descansa tranquila
+Jajaja, la computadora todo lo sabe y siempre confiaria mas en ella que otra persona
+Que embole, para eso estan las aplicaciones de internet
+O tu cadáver quiere jugar
+Estoy muerta de cansancio
+Morí
+Especialmente los pollerudos son ortivas jajaja
+Una lastima porque habia mapa nuevo
+Jajajajajajaj algunos pollerudos también pueden ser ortivas
+Parece que al final va a ser noche de series, los estudiantes de fisica son todos ortivas o pollerudos sin excepción
+Supongo q en una hora, hora y media
+En un rato vamos a buscar gente estamos haciendo informes jajaja
+Jajajajaja decime hora
+Aprox
+Así veo si me llego a bañar
+Antes
+Che un poco también me hice cargo de vos cuando estabas asustada
+Pero la maldad siempre es más entretenida
+Siempre pura maldad
+Nosotros íbamos todos los años, la mamá de Alan siempre reservaba
+Jajajjaa me acuerdo de irte molestando durante la excursión
+Pobre joaquin, le debo haber roto os huesos de la mano
+Sino ni en pedo
+Y porque era el último año
+Yo fui a una sola
+Y las excursiones esas eran terribles en especial la primera vez que no sabias que esperar
+Re loco que tiren un cuerpo justo donde fuimos a rendir examenes decenas de veces
+Mes estaba acordando hoy
+Ay dios
+Lo encontrábamos en el paseo nocturno
+Bueno de ahí salen todos, angelito era porque su apellido es ángel, el chivo porque es civitarese y por alguna razón dicen q es parecido del chufo no tengo idea
+Ahora es nuestro ángel guardián, uno de los mejores profes q tuve y el mejor dibujante de exactas
+O la película de Peter pan
+Es para una charla de café está serie
+Para charla de vodka
+una viuda morada y banda de charla
+Jajajaja la tendria que ver de nuevo igual
+Me gusta mucho el capitulo de ciborg por eso
+uffff
+Entre muchas cosas hablan sobre la mecanisación del cerebro
+el de la casería
+Y sobre el barco a Aquiles era
+Tengo una gran habilidad artística así q te tengo una pregunta fácil, quien es
+Mierda lpm porque me persigue la desgracia
+Hay más capas
+Que carajo
+Omg
+Porque los bonaerenses deben ser juegos limpios
+Osea entiendo lo que me decís pero puede ser de usar módulo o de desconocimiento
+Se pero también es típica jugada de principiante tapar de caballo
+Ves Hasta deep 28 al menos recomienda esa
+Y que cuando juego partidas pensadas con el siempre me pasa al principio que juega excelente y como que de repente colapsa entonces mi teoria es que lo usa para llegar a una posición ventajosa al principio y que desp lo deja
+Pero nada es de calenton yo, ya le mandé la revancha jajajaja
+Mientras no lo use en bonaerenses
+Igual ya esta solo es un poco de bronca mia por boludo que me colgué la dama y que al menos la podia cambiar por caballo y alfil pero no noté la descubierta
+El modulo si le dejas un toquesito te dice que tapes de caballo
+Me colgué la dama pero lo que me parece un toque raro es 8 movimientos seguidos de libro y el que rompió con la teoria fui yo con una impresicion
+Hoy la clase es por zoom
+Ya tas anotado en bonaerenses
+Ahora me tienen que confirmar
+Segundo nombre
+Oka jajaja
+Solo necesitaba estos datos
+Ya lo hice
+Me queres robar la identidad
+Me inspiraste
+No, pero a 1300 tengo que llegar, no puedo ser tan pecho frio de estar por los 1260
+Y todo gracias a ganar el enfrentamiento de reyes
+Pero en el dia a dia no lo pienso y normalmente no se en que dia estoy entonces me olvido de decir
+Uh gracias por esa info, siempre me olvido de decir feliz cumpleaños tengo un problema con las fechas jajajaja
+Y el 9 mi cumpleaños
+Dale dale, yo veo que hago porque estoy medio atrasado con todo
+Y tengo masomenos 45 min para rendir
+Ah me re olvidé de la planilla esa
+dentro de dos viernes
+Uh que paja
+Imposible hacerlo en 2 horas
+Tengo q ver el curso de Harvard de nuevo entonces
+Estoy mal programaticamente hoy el de programacion nos rompio el orto
+No tengo idea de lo que es un hash table
+Tengo una idea tonta para hacer durante un ratito al pedo no califica ni como proyecto
+Che sabes de hash tables
+Mi página en si tampoco es muy pesada igual
+Está bien, voy a ir viendo entonces
+No tengo idea si encontras avísame q me sirve para las pruebas
+Desp ves q Django y los macro entornos hacen todo eso solo en 5 líneas jajajaja
+No tengo idea yo buscaba como tonto en Google
+Que tengan admin. de base de datos y demás
+Que paginas de host gratis me recomendas
+Primito como andas
+Por la plata no te preocupes, siempre podes dejar todo y ponerte a trabajar en una mina de carbón
+Te veo muy entusiasmado, seguro q no querés un hijo Jajaja
+Jajajajaja encontramos la forma
+Me pareceria mas normal que arranque la conversación diciendo Buen elefante dorado de re Gray
+Lo dudo mucho, no creo que sea tan inteligente
+Estoy ademas boludeando con el dilema moral si queres de si podriamos decir que la computadora es conciente para molestar
+Quiero ver que tan real se puede volver y si queda algo medio loco
+Tampoco quiero que hable exactamente igual que yo sino le pasaria directamente todos mis mensajes de wpp de alguna forma
+Para darle variedad jajajaja
+Igual le tengo fe
+Puede que salga re bien y le tengas que corregir alguna que otra boludes
+Jajajaja me parece perfecto
+Entonces va a ser muy divertido
+Que malos que son
+Ni a palos
+Un sobrino
+Ni computación
+No es nada de la página
+Tuve que dejar la pagina por un tiempo, ahora rindo final
+Jajajaja eso es envidia
+Estaria bueno ver si vuelve el chico que va a hacer la parte de diseño tambien
+Sisi igual tampoco hay muchas preguntas pero se puede ir viendo eso desp
+Tengo que pelearme menos con el boton este
+Ah si eso se puede agregar y de hecho me queda mas facil a mi
+Pero asi podes hacer preguntas individuales sino tenes que armar toda una serie de preguntas siempre
+Y si esta mejor, cuando sea png mejor todavía
+Che te parece que ese queda mejor que el verde q había antes
+asdf
+Cuántas veces, amor, te amé sin verte y tal vez sin recuerdo,
+sin reconocer tu mirada, sin mirarte, centaura,
+en regiones contrarias, en un mediodía quemante
+eras sólo el aroma de los cereales que amo.
+Tal vez te vi, te supuse al pasar levantando una copa
+en Angola, a la luz de la luna de Junio,
+o eras tú la cintura de aquella guitarra
+que toqué en las tinieblas y sonó como el mar desmedido.
+Te amé sin que yo lo supiera, y busqué tu memoria.
+En las casas vacías entré con linterna a robar tu retrato.
+Pero yo ya sabía cómo era. De pronto
+mientras ibas conmigo te toqué y se detuvo mi vida
+frente a mis ojos estabas, reinándome, y reinas.
+Como hoguera en los bosques el fuego es tu reino.
+Cuerpo de mujer, blancas colinas, muslos blancos,
+te pareces al mundo en tu actitud de entrega.
+Mi cuerpo de labriego salvaje te socava
+y hace saltar al hijo del fondo de la tierra.
+Fui sólo como un túnel. De mí huían los pájaros,
+y en mí la noche entraba en su invasión poderosa.
+Para sobrevivirme te forjé como un arma,
+como una flecha en mi arco, como una piedra en mi honda.
+Pero cae la hora de la venganza, y te amo.
+Cuerpo de piel, de musgo, de leche ávida y firme.
+Ah los vasos del pecho Ah los ojos de ausencia
+Ah las rosas del pubis Ah tu voz lenta y triste
+Cuerpo de mujer mía, persistiré en tu gracia.
+Mi sed, mi ansia sin límite, mi camino indeciso
+Oscuros cauces donde la sed eterna sigue,
+y la fatiga sigue y el dolor infinito.
+Quiero que sepas una cosa.
+Tú sabes cómo es esto
+si miro la luna de cristal, la rama roja
+del lento otoño en mi ventana,
+si toco junto al fuego la impalpable ceniza
+o el arrugado cuerpo de la leña,
+todo me lleva a ti, como si todo lo que existe,
+aromas, luz, metales, fueran pequeños barcos que navegan
+hacia las islas tuyas que me aguardan.
+Ahora bien, si poco a poco dejas de quererme
+dejaré de quererte poco a poco.
+Si de pronto me olvidas no me busques,
+que ya te habré olvidado.
+Si consideras largo y loco
+el viento de banderas que pasa por mi vida
+y te decides a dejarme a la orilla
+del corazón en que tengo raíces,
+piensa que en ese día,
+a esa hora levantaré los brazos
+y saldrán mis raíces a buscar otra tierra.
+Pero si cada día,
+cada hora sientes que a mí estás destinada
+con dulzura implacable.
+Si cada día sube
+una flor a tus labios a buscarme,
+ay amor mío, ay mía,
+en mí todo ese fuego se repite,
+en mí nada se apaga ni se olvida,
+mi amor se nutre de tu amor, amada,
+y mientras vivas estará en tus brazos
+sin salir de los míos.
+Para mi corazón basta tu pecho,
+para tu libertad bastan mis alas.
+Desde mi boca llegará hasta el cielo
+lo que estaba dormido sobre tu alma.
+Es en ti la ilusión de cada día.
+Llegas como el rocío a las corolas.
+Socavas el horizonte con tu ausencia.
+Eternamente en fuga como la ola.
+He dicho que cantabas en el viento
+como los pinos y como los mástiles.
+Como ellos eres alta y taciturna.
+Y entristeces de pronto, como un viaje.
+Acogedora como un viejo camino.
+Te pueblan ecos y voces nostálgicas.
+Yo desperté y a veces emigran
+y huyen pájaros que dormían en tu alma.
+asdf
+El señor y la señora Dursley, que vivían en el número 4 de Privet Drive, estaban
+orgullosos de decir que eran muy normales, afortunadamente. Eran las últimas personas
+que se esperaría encontrar relacionadas con algo extraño o misterioso, porque no
+estaban para tales tonterías.
+El señor Dursley era el director de una empresa llamada Grunnings, que fabricaba
+taladros. Era un hombre corpulento y rollizo, casi sin cuello, aunque con un bigote
+inmenso. La señora Dursley era delgada, rubia y tenía un cuello casi el doble de largo de
+lo habitual, lo que le resultaba muy útil, ya que pasaba la mayor parte del tiempo
+estirándolo por encima de la valla de los jardines para espiar a sus vecinos. Los Dursley
+tenían un hijo pequeño llamado Dudley, y para ellos no había un niño mejor que él.
+Los Dursley tenían todo lo que querían, pero también tenían un secreto, y su mayor
+temor era que lo descubriesen no habrían soportado que se supiera lo de los Potter.
+La señora Potter era hermana de la señora Dursley, pero no se veían desde hacía
+años tanto era así que la señora Dursley fingía que no tenía hermana, porque su
+hermana y su marido, un completo inútil, eran lo más opuesto a los Dursley que se
+pudiera imaginar. Los Dursley se estremecían al pensar qué dirían los vecinos si los
+Potter apareciesen por la acera. Sabían que los Potter también tenían un hijo pequeño,
+pero nunca lo habían visto. El niño era otra buena razón para mantener alejados a los
+Potter no querían que Dudley se juntara con un niño como aquél.
+Nuestra historia comienza cuando el señor y la señora Dursley se despertaron un
+martes, con un cielo cubierto de nubes grises que amenazaban tormenta. Pero nada
+había en aquel nublado cielo que sugiriera los acontecimientos extraños y misteriosos
+que poco después tendrían lugar en toda la región. El señor Dursley canturreaba
+mientras se ponía su corbata más sosa para ir al trabajo, y la señora Dursley parloteaba
+alegremente mientras instalaba al ruidoso Dudley en la silla alta.
+Ninguno vio la gran lechuza parda que pasaba volando por la ventana.
+A las ocho y media, el señor Dursley cogió su maletín, besó a la señora Dursley en
+la mejilla y trató de despedirse de Dudley con un beso, aunque no pudo, ya que el niño
+tenía un berrinche y estaba arrojando los cereales contra las paredes. Tunante, dijo
+entre dientes el señor Dursley mientras salía de la casa. Se metió en su coche y se alejó
+del número 4.
+Al llegar a la esquina percibió el primer indicio de que sucedía algo raro un gato
+estaba mirando un plano de la ciudad. Durante un segundo, el señor Dursley no se dio
+cuenta de lo que había visto, pero luego volvió la cabeza para mirar otra vez. Sí había
+un gato atigrado en la esquina de Privet Drive, pero no vio ningún plano. En qué había
+estado pensando Debía de haber sido una ilusión óptica. El señor Dursley parpadeó y
+contempló al gato. Éste le devolvió la mirada. Mientras el señor Dursley daba la vuelta
+a la esquina y subía por la calle, observó al gato por el espejo retrovisor en aquel
+momento el felino estaba leyendo el rótulo que decía Privet Drive no podía ser, los
+gatos no saben leer los rótulos ni los planos. El señor Dursley meneó la cabeza y alejó
+al gato de sus pensamientos. Mientras iba a la ciudad en coche no pensó más que en los
+pedidos de taladros que esperaba conseguir aquel día.
+Pero en las afueras ocurrió algo que apartó los taladros de su mente. Mientras
+esperaba en el habitual embotellamiento matutino, no pudo dejar de advertir una gran
+cantidad de gente vestida de forma extraña. Individuos con capa. El señor Dursley no
+soportaba a la gente que llevaba ropa ridícula. Ah, los conjuntos que llevaban los
+jóvenes Supuso que debía de ser una moda nueva. Tamborileó con los dedos sobre el
+volante y su mirada se posó en unos extraños que estaban cerca de él. Cuchicheaban
+entre sí, muy excitados. El señor Dursley se enfureció al darse cuenta de que dos de los
+desconocidos no eran jóvenes. Vamos, uno era incluso mayor que él, y vestía una capa
+verde esmeralda Qué valor Pero entonces se le ocurrió que debía de ser alguna
+tontería publicitaria era evidente que aquella gente hacía una colecta para algo. Sí, tenía
+que ser eso. El tráfico avanzó y, unos minutos más tarde, el señor Dursley llegó al
+aparcamiento de Grunnings, pensando nuevamente en los taladros.
+El señor Dursley siempre se sentaba de espaldas a la ventana, en su oficina del
+noveno piso. Si no lo hubiera hecho así, aquella mañana le habría costado concentrarse
+en los taladros. No vio las lechuzas que volaban en pleno día, aunque en la calle sí que
+las veían y las señalaban con la boca abierta, mientras las aves desfilaban una tras otra.
+La mayoría de aquellas personas no había visto una lechuza ni siquiera de noche. Sin
+embargo, el señor Dursley tuvo una mañana perfectamente normal, sin lechuzas. Gritó a
+cinco personas. Hizo llamadas telefónicas importantes y volvió a gritar. Estuvo de muy
+buen humor hasta la hora de la comida, cuando decidió estirar las piernas y dirigirse a la
+panadería que estaba en la acera de enfrente.
+Había olvidado a la gente con capa hasta que pasó cerca de un grupo que estaba al
+lado de la panadería. Al pasar los miró enfadado. No sabía por qué, pero le ponían
+nervioso. Aquel grupo también susurraba con agitación y no llevaba ni una hucha.
+Cuando regresaba con un donut gigante en una bolsa de papel, alcanzó a oír unas pocas
+palabras de su conversación.
+Se acercaba la Navidad. Una mañana de mediados de diciembre Hogwarts se descubrió
+cubierto por dos metros de nieve. El lago estaba sólidamente congelado y los gemelos
+Weasley fueron castigados por hechizar varias bolas de nieve para que siguieran a
+Quirrell y lo golpearan en la parte de atrás de su turbante. Las pocas lechuzas que
+habían podido llegar a través del cielo tormentoso para dejar el correo tuvieron que
+quedar al cuidado de Hagrid hasta recuperarse, antes de volar otra vez.
+Todos estaban impacientes de que empezaran las vacaciones. Mientras que la sala
+común de Gryffindor y el Gran Comedor tenían las chimeneas encendidas, los pasillos,
+llenos de corrientes de aire, se habían vuelto helados, y un viento cruel golpeaba las
+ventanas de las aulas. Lo peor de todo eran las clases del profesor Snape, abajo en las
+mazmorras, en donde la respiración subía como niebla y los hacía mantenerse lo más
+cerca posible de sus calderos calientes.
+Me da mucha lástima dijo Draco Malfoy, en una de las clases de Pociones
+toda esa gente que tendrá que quedarse a pasar la Navidad en Hogwarts, porque no los
+quieren en sus casas.
+Mientras hablaba, miraba en dirección a Harry. Crabbe y Goyle lanzaron risitas
+burlonas. Harry, que estaba pesando polvo de espinas de pez león, no les hizo caso.
+Después del partido de quidditch, Malfoy se había vuelto más desagradable que nunca.
+Disgustado por la derrota de Slytherin, había tratado de hacer que todos se rieran
+diciendo que un sapo conuna gran boca podía reemplazar a Harry como buscador. Pero
+entonces se dio cuenta de que nadie lo encontraba gracioso, porque estaban muy
+impresionados por la forma en que Harry se había mantenido en su escoba. Así que
+Malfoy celoso y enfadado, había vuelto a fastidiar a Harry por no tener una familia
+apropiada.
+Era verdad que Harry no iría a Privet Drive para las fiestas. La profesora
+McGonagall había pasado la semana antes, haciendo una lista de los alumnos que iban a
+quedarse allí para Navidad, y Harry puso su nombre de inmediato. Y no se sentía triste,
+ya que probablemente ésa sería la mejor Navidad de su vida. Ron y sus hermanos
+también se quedaban, porque el señor y la señora Weasley se marchaban a Rumania, a
+visitar a Charles.
+Cuando abandonaron los calabozos, al finalizar la clase de Pociones, encontraron
+un gran abeto que ocupaba el extremo del pasillo. Dos enormes pies aparecían por
+debajo del árbol y un gran resoplido les indicó que Hagrid estaba detrás de él.
+Hola, Hagrid. Necesitas ayuda preguntó Ron, metiendo la cabeza entre las
+ramas.
+No, va todo bien. Gracias, Ron.
+Te importaría quitarte de en medio La voz fría y gangosa de Malfoy llegó
+desde atrás. Estás tratando de ganar algún dinero extra, Weasley Supongo que
+quieres ser guardabosques cuando salgas de Hogwarts Esa choza de Hagrid debe de
+parecerte un palacio, comparada con la casa de tu familia.
+Ron se lanzó contra Malfoy justo cuando aparecía Snape en lo alto de las escaleras.
+WEASLEY
+Ron soltó el cuello de la túnica de Malfoy.
+Lo han provocado, profesor Snape dijo Hagrid, sacando su gran cabeza peluda
+por encima del árbol. Malfoy estaba insultando a su familia.
+Lo que sea, pero pelear está contra las reglas de Hogwarts, Hagrid dijo Snape
+con voz amable. Cinco puntos menos para Gryffindor Weasley, y agradece que no
+sean más. Y ahora marchaos todos.
+Malfoy, Crabbe y Goyle pasaron bruscamente, sonriendo con presunción.
+Voy a atraparlo dijo Ron, sacando los dientes ante la espalda de Malfoy.
+Uno de estos días lo atraparé
+Los detesto a los dos añadió Harry. A Malfoy y a Snape.
+Vamos, arriba el ánimo, ya es casi Navidad dijo Hagrid. Os voy a decir qué
+haremos venid conmigo al Gran Comedor está precioso.
+Así que los tres siguieron a Hagrid y su abeto hasta el Gran Comedor, donde la
+profesora McGonagall y el profesor Flitwick estaban ocupados en la decoración.
+El salón estaba espectacular. Guirnaldas de muérdago y acebo colgaban de las
+paredes, y no menos de doce árboles de Navidad estaban distribuidos por el lugar,
+algunos brillando con pequeños carámbanos, otros con cientos de velas.
+Cuántos días os quedan para las vacaciones preguntó Hagrid.
+Sólo uno respondió Hermione. Y eso me recuerda Harry, Ron, nos queda
+media hora para el almuerzo, deberíamos ir a la biblioteca.
+Sí, claro, tienes razón dijo Ron, obligándose a apartar la vista del profesor
+Flitwick, que sacaba burbujas doradas de su varita, para ponerlas en las ramas del árbol
+nuevo.
+La biblioteca preguntó Hagrid, acompañándolos hasta la puerta. Justo
+antes de las fiestas Un poco triste, no creéis
+Oh, no es un trabajo explicó alegremente Harry. Desde que mencionaste a
+Nicolás Flamel, estamos tratando de averiguar quién es.
+Qué Hagrid parecía impresionado. Escuchadme Ya os lo dije No os
+metáis. No tiene nada que ver con vosotros lo que custodia ese perro.
+Nosotros queremos saber quién es Nicolás Flamel, eso es todo dijo Hermione.
+Salvo que quieras ahorrarnos el trabajo añadió Harry. Ya hemos buscado en
+miles de libros y no hemos podido encontrar nada Si nos das una pista Yo sé que leí
+su nombre en algún lado.
+No voy a deciros nada dijo Hagrid con firmeza.
+Entonces tendremos que descubrirlo nosotros dijo Ron. Dejaron a Hagrid
+malhumorado y fueron rápidamente a la biblioteca.
+Habían estado buscando el nombre de Flamel desde que a Hagrid se le escapó,
+porque de qué otra manera podían averiguar lo que quería robar Snape El problema
+era la dificultad de buscar sin saber qué podía haber hecho Flamel para figurar en un
+libro. No estaba en Grandes magos del siglo , ni en Notables nombres de la magia de
+nuestro tiempo tampoco figuraba en Importantes descubrimientos en la magia moderna
+ni en Un estudio del reciente desarrollo de la hechicería. Y además, por supuesto,
+estaba el tamaño de la biblioteca, miles y miles de libros, miles de estantes, cientos de
+estrechas filas
+Hermione sacó una lista de títulos y temas que había decidido investigar mientras
+Ron se paseaba entre una fila de libros y los sacaba al azar. Harry se acercó a la Sección
+Prohibida. Se había preguntado si Flamel no estaría allí. Pero por desgracia, hacía falta
+un permiso especial, firmado por un profesor, para mirar alguno de los libros de aquella
+sección, y sabía que no iba a conseguirlo. Allí estaban los libros con la poderosa Magia
+del Lado Oscuro, que nunca se enseñaba en Hogwarts y que sólo leían los alumnos
+mayores, que estudiaban cursos avanzados de Defensa Contra las Artes Oscuras.
+Qué estás buscando, muchacho
+Nada respondió Harry.
+La señora Pince, la bibliotecaria, empuñó un plumero ante su cara.
+Entonces, mejor que te vayas. Vamos, fuera
+Harry salió de la biblioteca, deseando haber sido más rápido en inventarse algo. Él,
+Ron y Hermione se habían puesto de acuerdo en que era mejor no consultar a la señora
+Pince sobre Flamel. Estaban seguros de que ella podría decírselo, pero no podían
+arriesgarse a que Snape se enterara de lo que estaban buscando.
+Harry los esperó en el pasillo, para ver si los otros habían encontrado algo, pero no
+tenía muchas esperanzas. Después de todo, buscaban sólo desde hacía quince días y en
+los pocos momentos libres, así que no era raro que no encontraran nada. Lo que
+realmente necesitaban era una buena investigación, sin la señora Pince pegada a sus
+nucas.
+Cinco minutos más tarde, Ron y Hermione aparecieron negando con la cabeza. Se
+marcharon a almorzar.
+Vais a seguir buscando cuando yo no esté, verdad dijo Hermione. Si
+encontráis algo, enviadme una lechuza.
+Y tú podrás preguntarle a tus padres si saben quién es Flamel dijo Ron.
+Preguntarle a ellos no tendrá riesgos.
+Ningún riesgo, ya que ambos son dentistas respondió Hermione.
+Cuando comenzaron las vacaciones, Ron y Harry tuvieron mucho tiempo para pensar en
+Flamel. Tenían el dormitorio para ellos y la sala común estaba mucho más vacía que de
+costumbre, así que podían elegir los mejores sillones frente al fuego. Se quedaban
+comiendo todo lo que podían pinchar en un tenedor de tostar pan buñuelos
+melcochas y planeaban formas de hacer que expulsaran a Malfoy muy divertidas pero
+imposibles de llevar a cabo.
+Ron también comenzó a enseñar a Harry a jugar al ajedrez mágico. Era igual que el
+de los muggles salvo que las piezas estaban vivas lo que lo hacía muy parecido a
+dirigir un ejército en una batalla. El juego de Ron era muy antiguo y estaba gastado.
+Como todo lo que tenía había pertenecido a alguien de su familia en este caso a su
+abuelo. Sin embargo las piezas de ajedrez viejas no eran una desventaja. Ron las
+conocía tan bien que nunca tenía problemas en hacerles hacer lo que quería.
+Harry jugó con el ajedrez que Seamus Finnigan le había prestado y las piezas no
+confiaron en él. Él todavía no era muy buen jugador y las piezas le daban distintos
+consejos y lo confundían diciendo por ejemplo No me envíes a mí. No ves el
+caballo Muévelo a él podemos permitirnos perderlo.
+En la víspera de Navidad Harry se fue a la cama, deseoso de que llegara el día
+siguiente, pensando en toda la diversión y comida que lo aguardaban, pero sin esperar
+ningún regalo. Cuando al día siguiente se despertó temprano, lo primero que vio fue
+unos cuantos paquetes a los pies de su cama.
+Feliz Navidad lo saludó medio dormido Ron, mientras Harry saltaba de la
+cama y se ponía la bata.
+Para ti también contestó Harry. Mira esto Me han enviado regalos
+Qué esperabas, nabos dijo Ron, volviéndose hacia sus propios paquetes, que
+eran más numerosos que los de Harry
+Harry cogió el paquete que estaba más arriba. Estaba envuelto en papel de embalar
+y tenía escrito Para Harry de Hagrid. Contenía una flauta de madera, toscamente
+trabajada. Era evidente que Hagrid la había hecho. Harry sopló y la flauta emitió un
+sonido parecido al canto de la lechuza.
+El segundo, muy pequeño, contenía una nota.
+Recibimos tu mensaje y te mandamos tu regalo de Navidad. De tío Vernon y tía
+Petunia. Pegada a la nota estaba una moneda de cincuenta peniques.
+Qué detalle comentó Harry.
+Ron estaba fascinado con los cincuenta peniques.
+Qué raro dijo Qué forma Esto es dinero
+Puedes quedarte con ella dijo Harry, riendo ante el placer de Ron. Hagrid,
+mis tíos Quién me ha enviado éste
+Creo que sé de quién es ése dijo Ron, algo rojo y señalando un paquete
+deforme. Mi madre. Le dije que creías que nadie te regalaría nada y.. oh, no
+gruñó, te ha hecho un jersey Weasley.
+Harry abrió el paquete y encontró un jersey tejido a mano, grueso y color verde
+esmeralda, y una gran caja de pastel de chocolate casero.
+Cada año nos teje un jersey dijo Ron, desenvolviendo su paquete y el mío
+siempre es rojo oscuro.
+Es muy amable de parte de tu madre dijo Harry probando el pastel, que era
+delicioso.
+El siguiente regalo también tenía golosinas, una gran caja de ranas de chocolate, de
+parte de Hermione.
+Le quedaba el último. Harry lo cogió y notó que era muy ligero. Lo desenvolvió.
+Algo fluido y de color gris plateado se deslizó hacia el suelo y se quedó brillando.
+Ron bufó.
+Había oído hablar de esto dijo con voz ronca, dejando caer la caja de grageas
+de todos los sabores, regalo de Hermione. Si es lo que pienso, es algo verdaderamente
+raro y valioso.
+Qué es
+Harry cogió el género brillante y plateado. El tocarlo producía una sensación
+extraña, como si fuera agua convertida en tejido.
+Es una capa invisible dijo Ron, con una expresión de temor reverencial.
+Estoy seguro Pruébatela.
+Harry se puso la capa sobre los hombros y Ron lanzó un grito.
+Lo es Mira abajo
+Harry se miró los pies, pero ya no estaban. Se dirigió al espejo. Efectivamente su
+reflejo lo miraba, pero sólo su cabeza suspendida en el aire, porque su cuerpo era
+totalmente invisible. Se puso la capa sobre la cabeza y su imagen desapareció por
+completo.
+Hay una nota dijo de pronto Ron.Ha caído una nota
+Harry se quitó la capa y cogió la nota. La caligrafía, fina y llena de curvas, era
+desconocida para él. Decía
+asdf
+Un intenso olor de rosas penetraba en el estudio, y cuando, entre los
+árboles del jardín, comenzaba la brisa, llegaban por la puerta abierta el
+denso aroma de las filas o el más delicado perfume de los agavanzos
+en flor.
+Desde el rincón del diván de alforjas persas en que yacía, fumando,
+según costumbre, cigarrillo tras cigarrillo, Lord Henry Wotton podía
+divisar el resplandor dorado de las flores color de miel de un cítiso,
+cuyas ramas trémulas apenas parecían capaces de soportar el peso
+de tan flamante belleza, y de cuando en cuando, las sombras
+fantásticas de los pájaros cruzaban las largas cortinas de seda que
+cubrían el ancho ventanal, produciendo una especie de efecto japonés
+momentáneo, y haciéndole pensar en esos pintores de Tokyo, de
+rostro jade pálido, que por medio de un arte forzosamente inmóvil
+tratan de dar la impresión de la rapidez y el movimiento. El zumbido
+adusto de las abejas, abriéndose camino a través de la alta hierba sin
+segar, o revoloteando con monótona insistencia en torno de las
+polvorientas cabezuelas doradas de una dispersa madreselva, parecía
+hacer aún más abrumadora esta quietud. El sordo estrépito de Londres
+era como el bordón de un órgano lejano.
+En el centro de la habitación, sostenido por un caballete, veíase el
+retrato, de tamaño natural, de un joven de extraordinaria belleza, y
+frente a di, sentado a poca distancia, al pintor en persona, Basil
+Hallward, cuya súbita desaparición pocos años antes había causado
+tanta sensación y dado origen a tantas extrañas conjeturas.
+Contemplaba el pintor la forma grácil y encantadora que tan
+diestramente reflejara su arte, y una sonrisa de satisfacción cruzó su
+rostro, pareciendo demorarse en él. Pero, de pronto, estremeciéndose,
+cerró los ojos y oprimióse los párpados con los dedos, como si quisiera
+aprisionar en su cerebro algún extraño sueño, del que temiera
+despertar.
+Es tu mejor obra, Basil lo mejor que has hecho hasta ahora dijo Lord
+Henry, lánguidamente . Debes enviarla el año próximo ala exposición
+Grosvenor. La Academia es demasiado grande y demasiado vulgar.
+Siempre que he ido, o había tanta gente que no he podido ver los
+cuadros, cosa sumamente desagradable, o tantos cuadros que no he
+podido ver la gente, cosa peor todavía. Realmente, Grosvenor, es el
+único sitio.
+Creo que no lo enviaré a ninguno contestó el pintor, echando hacia
+atrás la cabeza con aquel ademán singular que tanto hacía reír a sus
+condiscípulos de Oxford . Sí a ninguno.
+Lord Henry enarcó las cejas, mirándole con estupor a través de las
+tenues espirales azules en que se rizaba caprichosamente el humo de
+su cigarrillo opiado.
+Qué no piensas enviarlo a ningún sitio Y por qué, puede saberse
+Tienes algún motivo Qué gente tan absurda sois los pintores
+Andáis de coronilla para haceros una reputación, y en cuanto la
+conseguís, parecéis deseosos de echarla a rodar. Una tontería pues
+sólo hay una cosa en el mundo peor que el que se hable mal de uno, y
+es que no se hable. Un retrato como éste te colocaría a cien codas
+por encima de todos los pintores jóvenes de Inglaterra, y haría rabiar
+de envidia a los viejos, si es que los viejos son todavía capaces de
+alguna emoción.
+Sé que vas a reírte de mí replicó el pintor pero te aseguro que
+realmente no puedo exponerlo. He puesto demasiado de mí mismo en
+él.
+Lord Henry se repatingó en el diván, soltando la carcajada.
+Sí, ya sabía que te reirías pero, a pesar de todo, es verdad.
+de ti mismo en él Palabra de honor, Basil no sabía que
+fueras tan presuntuoso. Te aseguro que no veo la menor semejanza
+entre tú, con esa cara ceñuda y viril, y este joven Adonis, que parece
+hecho de marfil y de rosas. Caramba, querido Basil éste es un
+narciso, y tú claro que tienes una expresión inteligente, no hay que
+decir.
+asdf
+En verdad, ignoro por qué estoy tan triste. Me inquieta. Decís que a vosotros os inquieta también pero cómo he adquirido esta tristeza, tropezado o encontrado con ella, de qué substancia se compone, de dónde proviene, es lo que no acierto a explicarme. Y me ha vuelto tan pobre de espíritu, que me cuesta gran trabajo reconocerme.
+Vuestra imaginación se bambolea en el océano, donde vuestros enormes galeones, con las velas infladas majestuosamente, como señores ricos y burgueses de las olas, o, si lo preferís, como palacios móviles del mar, contemplan desde lo alto de su grandeza la gente menuda de las pequeñas naves mercantes, que se inclinan y les hacen la reverencia cuando se deslizan por sus costados con sus alas tejidas.
+Creedme, señor si yo corriera semejantes riesgos, la mayor parte de mis afecciones se hallaría lejos de aquí, en compañía de mis esperanzas. Estaría de continuo lanzando pajas al aire para saber de dónde viene el viento. Tendría siempre la nariz pegada a las cartas marinas para buscar en ellas la situación de los puertos, muelles y radas y todas las cosas que pudieran hacerme temer un accidente para mis cargamentos me pondrían indudablemente triste.
+Mi soplo, al enfriar la sopa, me produciría una fiebre, cuando me sugiriera el pensamiento de los daños que un ciclón podría hacer en el mar. No me atrevería a ver vaciarse la ampolla de un reloj de arena, sin pensar en los bajos arrecifes y sin acordarme de mi rico bajel Andrés, encallado y ladeado, con su palo mayor abatido por encima de las bandas para besar su tumba. Si fuese a la iglesia, podría contemplar el santo edificio de piedra, sin imaginarme inmediatamente los escollos peligrosos que, con sólo tocar los costados de mi hermosa nave, desperdigarían mis géneros por el océano y vestirían con mis sedas a las rugientes olas, y, en una palabra, sin pensar que yo,
+opulento al presente, puedo quedar reducido a la nada en un instante Podría reflexionar en estas cosas, evitando esa otra consideración de que, si sobreviniera una desgracia semejante, me causaría tristeza Luego, sin necesidad de que me lo digáis, sé que Antonio está triste porque piensa en sus mercancías.
+No, creedme gracias a mi fortuna, todas mis especulaciones no van confiadas a un solo buque, ni las dirijo a un solo sitio ni el total de mi riqueza depende tampoco de los percances del año presente no es, por tanto, la suerte de mis mercancías lo que me entristece.
+Pues entonces es que estáis enamorado.
+Quita, quita
+Ni enamorado tampoco Pues convengamos en que estáis triste porque no estáis alegre, y en que os sería por demás grato reír, saltar y decir que estáis alegre porque no estáis triste. Ahora, por Jano, el de la doble cara, la Naturaleza se goza a veces en formar seres raros. Los hay que están siempre predispuestos a entornar los ojos y a reír como una cotorra delante de un simple tocador de cornamusa, y otros que tienen una fisonomía tan avinagrada, que no descubrirían sus dientes para sonreír, aun cuando el mismo grave Néstor jurara que acababa de oír una chirigota regocijante.
+Aquí llega Bassanio, vuestro nobilísimo pariente, con Graciano y Lorenzo. Que os vaya bien vamos a dejaros en mejor compañía.
+Me hubiera quedado con vos hasta veros recobrar la alegría, si más dignos amigos no me relevaran de esa tarea.
+Vuestro mérito es muy caro a mis ojos. Tengo la seguridad de que vuestros asuntos personales os reclaman, y aprovecháis esta ocasión para partir.
+semejan habitantes de este mundo, estando en él Tenéis vida Sois algo a lo que un hombre pueda hablar Parecéis entenderme por el modo de poner vuestro dedo calloso sobre los magros labios. Sin duda sois mujeres, mas vuestra barba me impide pensar que lo seáis.
+Hablad si sabéis. Quiénes sois
+Salud a ti, Macbeth, Barón de Glamis
+Salud a ti, Macbeth, Barón de Cawdor
+Salud a ti, Macbeth, que serás rey
+Por qué te sobresaltas, como si temieras lo que suena tan grato En nombre de la verdad, sois una fantasía o sois realmente lo que parecéis A mi noble compañero saludáis por su título y auguráis un nuevo honor y esperanzas de realeza, lo que le tiene absorto. A mí no me habláis. Si podéis penetrar las semillas del tiempo y decir cuál crecerá y cuál no, habladme ahora a mí, que ni os suplico favores ni temo vuestro odio.
+Salud
+Salud
+Salud
+Menos que Macbeth, pero más grande.
+Menos feliz, y mucho más feliz.
+Engendrarás reyes, mas no lo serás así que,
+Banquo y Macbeth, salud
+Esperad, imperfectas hablantes, decid más Por la muerte de Sinel soy Barón de Glamis, mas, cómo de Cawdor El Barón de Cawdor vive y continúa vigoroso y ser rey traspasa el umbral de lo creíble, tanto como ser Cawdor. Decid de dónde os ha llegado tan extraña novedad o por qué cortáis nuestro
+reforzó al rebelde con apoyo secreto y beneficio, o labraba con los dos la ruina de su patria, no lo sé ha caído por alta traición, confesada y probada.
+Aparte. Glamis y Barón de Cawdor. Lo más grande, después. Gracias por vuestro servicio A Banquo. No esperas que tus hijos sean reyes Las que me dieron el título de Cawdor no les auguraron menos.
+Eso, creído ciegamente, podría empujarte a la corona después de hacerte Cawdor. Aunque es muy extraño las fuerzas de las sombras nos dicen verdades, nos tientan con minucias, para luego engañarnos en lo grave y trascendente. Parientes, permitidme un momento.
+Aparte. Ya se han dicho dos verdades, felices preludios a la escena gloriosa del fin soberano. Gracias, señores. Aparte. Esta incitación sobrenatural no puede ser mala, no puede ser buena. Si es mala, por qué me ha dado promesa de éxito empezando con una verdad Soy Barón de Cawdor. Si es buena, por qué cedo a esa tentación cuya hórrida imagen me eriza el cabello y me bate el firme corazón contra los huesos violando las leyes naturales Es menor un peligro real que un horror imaginario. La idea del crimen, que no es sino quimera, a tal punto sacude mi entera humanidad que la acción se ahoga en conjeturas y sólo es lo que no es.
+asdf
+En la posición que nos muestra este
+diagrama podemos ver como se cumplen las
+premisas de las que hablamos anteriormente.
+El blanco dispone de una mayor movilidad de
+piezas hacia el flanco de dama negro, su pareja de alfiles ataca y compromete la seguridad
+del rey negro, el caballo centralizado apoya el
+ataque sobre el punto c6 en donde se junta con
+la dama de f3 y el alfil de g2 creando opciones
+tácticas o de sacrificio para desmantelar la
+defensa de las negras y la columna semiabierta
+de la torre se complemente creando otras
+posibilidades que también pueden ser decisivas.
+Y para comprender que podemos ser
+los primeros en atacar, está la falta de desarrollo de las negras, los huecos en el flanco en
+donde el rey negro está enrocado, la falta de
+coordinación de las piezas negras que no tienen ningún punto concreto en donde se puedan juntar para crear amenazas, y la descentralización del caballo que desde su posición no
+puede proporcionar ninguna ayuda.
+Cuando las ventajas obtenidas en la
+apertura y medio juego no han sido suficientes, o no se han sabido explotar, normalmente
+se producirán simplificaciones, cambios que
+irán reduciendo el número de fuerzas en el
+tablero y entraremos en la última fase de la
+partida, el final. En esta parte, en la que ya no
+quedan casi piezas, el rey pasa a ser una figura
+de una importancia se podría decir mucho
+mayor, ya que debe dejar su papel de mero
+observador de las acciones para convertirse en
+el artífice principal de la lucha.
+Se puede ver claramente en esta posición que tenemos en el diagrama la importancia de la actividad del rey blanco, quien definirá la partida, simplemente, yendo a comerse
+los peones, mientras que el pasivo rey negro
+será solo un observador del desastre.
+El centro
+Podemos dar una definición muy simple de los que es el centro, y no es más que las
+casillas, e4, d4, e5, d5, pero esta definición tan
+elemental, tiene una enorme importancia en el
+desarrollo de la lucha, ya que el que logre
+dominar, primero dos casillas mínimo centrales aunque normalmente se necesitarán 3
+podrá ser el primero en iniciar las acciones de
+ataque sobre el campo enemigo.
+Principios básicos del desarrollo y del
+razonamiento ajedrecístico.
+La mejor forma de comprender es con
+ejemplos simples para que vayamos viendo de
+que manera se puede comprender la partida y
+el desarrollo de las piezas
+Normalmente, es mejor desarrollar los
+caballos primero o especialmente el caballo de
+rey, que nos permite crear una amenaza directa sobre el peón central de las negras y por
+otra parte Cf3 sería la mejor casilla para el
+caballo, ya que desde esta posición el caballo
+domina muchas casillas. Es siempre importante tener los caballos centralizados.
+Igualmente, la jugada de la partida no puede
+considerarse para nada un error, creando una
+solitaria amenaza sobre el peón de f7 de nuestro rival.
+Hay razones para comenzar el estudio
+del ajedrez por la parte de desarrollo de la
+fuerza táctica. Primeramente, es importante
+que podamos definir qué es táctica y qué es
+estrategia en ajedrez. De una forma sencilla y
+para que nos quede claro, podemos decir que
+la Estrategia es el qué debemos hacer en una
+determinada posición, dónde queremos llegar.
+Táctica, en cambio, es cómo llegamos a ese
+objetivo que nos hemos planteado.
+Un ejemplo puede ser que cuando
+somos pequeños para llegar a la mesa, debemos aprender primero a caminar o gatear, esa
+sería la forma, y el objetivo la estrategia la
+mesa.
+También es cierto, por otro lado, que la
+estrategia no es algo concreto, sino algo que
+muchas veces acepta matices, mientras que la
+táctica no, con lo que el camino resultará más
+fácilmente comprensible al principio de la formación.
+Veremos también que en este proceso
+de aprendizaje el alumno irá desarrollando
+paulatinamente sus habilidades, desarrollando
+su visión combinativa primero en un cuadrado
+de 4x4, luego mejorará a 6x6 hasta llegar a ver
+jugadas largas en todo el tablero. Por tal motivo, es conveniente plantear problemas para
+resolver primero en el marco de estas dimensiones y así poder observar la velocidad o dificultad que puedan encontrar para resolverlos
+y, de esta manera, poder ir acompañándolos en
+su proceso de aprendizaje y atención.
+Tratar de comenzar por lo más complejo nos puede acarrear, especialmente en los
+más pequeños, la pérdida del interés, por lo
+87La Táctica
+que es conveniente no tratar de quemar etapas,
+salvo que notemos realmente una facilidad
+manifiesta en la resolución.
+Mi consejo es la colocación de 3 problemas con resolución en un espacio de 4x4, 3
+problemas más en un espacio de 6x6 y otros 3
+en 8x8, y con los temas tácticos definidos
+pieza clavada, doble amenaza, etc. adjuntando una explicación previa del tema.
+Es importante ir allanando el camino y
+que no vea barreras ni limitaciones, esto incentiva la búsqueda y la autoestima.
+También es positivo en este camino,
+ejercitarse con el reloj de ajedrez, que, si bien
+en un principio puede ser un factor de stress,
+mejora rápidamente la capacidad de atención,
+y agiliza la visión inmediata
+El mal llamado mate de Philidor, ya
+había sido publicado en el año 1496 por
+Lucena, así que haremos un reconocimiento
+histórico al jugador español dándole su nombre ya que más de 200 años antes que Philidor
+había encontrado esta bonita combinación.
+En este tema de mate se puede ver
+como las piezas atacantes colocan en situación
+de jugadas obligadas al defensor y, luego, con
+un bonito sacrificio de dama dan jaque mate al
+rey.
+asdf
+Señor presidente y equipo de especialistas
+Les comunicamos que por razones de fuerza mayor y a partir del día 10 de mayo, los ciudadanos Argentinos retomaremos nuestros trabajos y actividades con los cuidados sanitarios correspondientes, ya que necesitamos comer y alimentar nuestras familias. Vienen gestionando muy mal esta crisis. No queremos escuchar mas infectologos.
+Queremos escuchar también a economistas y matemáticos especialistas que comparen la letalidad de este virus con otras numerosas causas de muerte y así terminar con éste monopolio del virus y de cuarentena eterna que tanto daño nos hace. No requerimos más clases televisivas de cómo cuidarnos la salud.
+Muchas gracias por enseñarnos
+Un país más empobrecido trae numerosas consecuencias directas a la salud de los ciudadanos casi irremediables. No queremos que nos maten en la calle por un celular. No es justo que no llegue el plato de comida a todos los hogares en un país productor de alimentos. Exigimos acceder a un sistema de salud apropiado en relación a todos los impuestos que venimos pagando.
+Como si esto fuera poco, uds. los políticos hoy se atreven a hacernos responsables de los contagios en nuestra población Los jubilados tienen la culpa de hacer largas colas para poder cobrar. Los médicos tienen la culpa por no protegerse. Nadie controla los geriátricos.
+Ustedes, los políticos son el organismo de control. Son los responsables Hagan su trabajo Qué triste y pobre papel, qué mirada tan insensible y miserable .
+Dejen de hablarle pavadas a la población. Aprendan a escuchar
+El personal de la salud no necesita más aplausos. No son héroes que van a morir a la guerra Ellos necesitan que el dinero que ustedes recaudan de nuestros impuestos lo inviertan en el sistema de salud y la verdad es que vienen reduciendo ese presupuesto y eso es un genocidio. Ustedes se dedican a descuidar al pueblo. Y hablan de no saturar el sistema de salud. Nuestro sistema de salud está roto y tiene falencias hace muchos años.
+Y la culpa no es de los ciudadanos que trabajan y pagan sus impuestos. Ustedes administran los fondos del estado y lo vienen haciendo muy mal hace muchos años en nuestro país. Ustedes son el verdadero virus. No subestimen al pueblo y por favor siempre recuerden que la historia revela que somos grandes luchadores por nuestros derechos.
+Atentamente los honorables ciudadanos Argentinos
+Carnes Brandsen, de Ruta 210 y Garibaldi tiene para vos todos los cortes vacunos y de cerdo, achuras, hamburguesas, embutidos, milanesas de pollo, pata y muslo, carbón, hielo y pan. 🇦🇷
+Y como piensa en vos y en tu seguridad, en este contexto de pandemia, Carnes Brandsen pone a tu disposición un nuevo servicio de envíos a domicilio
+Hacés tu pedido por whatsapp al, abonás por MercadoPago, cuenta DNI o transferencia bancaria, y recibís el pedido en tu puerta.
+Carnes Brandsen, lo mejor en carnes, ahora, sin moverte de tu casa.
+Deberian haber tomado las medidas necesarias para no llegar a esta situación y esto no hubiera pasado Tan simple como eso Además no son parte del gobierno uds tambien Acá se trata de cantidad de contagios y de cantidad de fallecidos, hay que hacerse cargo de los números que arroja el districto y no mirar para otro lado casi 500 contagios durante marzo casi 800 contagios durante abril será que esos números no son significativos para muchos no ha sido ni es gratis transitar esta enfermedad Sean serios por favor.
+El Gobierno de la Provincia de Buenos Aires ha dispuesto por Resolución 1555/2021 de fecha 2 de Mayo del corriente para el Distrito de Brandsen lo siguiente
+Las actividades comerciales de carácter general no podrán desarrollarse entre las DIECINUEVE 19 horas y las SEIS 6 horas del día siguiente.
+Las actividades desarrolladas en comercios gastronómicos no podrán desarrollarse entre las DIECINUEVE 19 horas y las SEIS 6 horas del día siguiente, salvo en las modalidades de reparto a domicilio y para retirar en el establecimiento. Los locales gastronómicos solo podrán atender a sus clientes en espacios habilitados al aire libre.
+Las personas no podrán circular entre las VEINTE 20 horas y las SEIS 6 horas del día siguiente con la salvedad de
+Las personas afectadas a las actividades y servicios esenciales artículo 11 del Decreto Nacional 125/21, quienes podrán utilizar a esos fines el servicio público de transporte de pasajeros.
+Las personas afectadas a las actividades industriales que se encuentren trabajando en horario nocturno, de conformidad con sus respectivos protocolos de funcionamiento.
+Las personas que deban retornar a su domicilio habitual desde su lugar de trabajo o concurrir al mismo.
+Todas las personas exceptuadas deberán portar el Certificado Único Habilitante para Circulación Emergencia COVID-19 que las habilite a tal fin.
+Los desplazamientos de las personas exceptuadas deberán limitarse al estricto cumplimiento de la actividad autorizada.
+DEBÍA ESTAR AISLADO, FUE UNA REUNIÓN CON AMIGOS Y SUSTRAJO UN TV Y OTROS ELEMENTOS
+Un hombre de 30 años que debía permanecer aislado por ser contacto estrecho de una persona que tuvo coronavirus fue aprehendido en las últimas horas en Brandsen acusado de sustraer un televisor y otros elementos de una vivienda a la que había asistido a una reunión con amigos.
+La captura se realizó cerca de la casa que habita, ubicada en calle Infanta Isabel del barrio Las Mandarinas, y al sujeto le incautaron lo hurtado.
+El hecho ocurrió en un inmueble sito en Alberti al 2100 cuando la propietaria del lugar notó que en momento dado le habían sustraído la TV, una Led de 32 pulgadas un bolso con cosméticos y dinero.
+Rápidamente, sospechó de uno de los asistentes, quien antes de retirarse había pasado al baño, por lo que se comunicó para denunciar lo ocurrido.
+Con las descripciones del sospechoso, efectivos de la Estación de Policía Comunal de Brandsen montaron un operativo de rastrillaje por la zona, que finalizó con la captura del imputado y la recuperación de lo hurtado.
+Tras ello, a raíz de otras averiguaciones, se constó que el aprehendido debía estar aislado hasta mañana por ser contacto estrecho.
+Interviene en la causa la UFI Descentralizada de Brandsen a cargo de la Dra. Mariana Albisu.
+asdf
+El rugby​es un deporte de evasión y contacto en equipo nacido en Inglaterra. Fue en ese país donde tomó su nombre a partir de las reglas del fútbol elaboradas en el colegio de la ciudad de Rugby School en el siglo XIX. Sobre la forma de denominar en español al jugador practicante del deporte, el Diccionario panhispánico de dudas informa que se usa con frecuencia en los países del Río de la Plata la forma rugbier con el sufijo -er propio del inglés para crear este tipo de derivados aunque en inglés se usa, en este caso, la expresión rugby player. La Real Academia Española utiliza la palabra rugbi, como adaptación gráfica del término inglés y recomienda la expresión rugbista para referirse al jugador, utilizando el sufijo como en futbolista, golfista, tenista, etc.4​
+El rugby se practica a nivel internacional en todos los continentes, aunque ha alcanzado un importante grado de desarrollo en las naciones que conforman las islas británicas Escocia, Gales, Inglaterra, Irlanda e Irlanda del Norte, así como en Australia, Fiyi, Nueva Zelanda, Papúa Nueva Guinea, Samoa, Sudáfrica, Tonga, Uruguay, Argentina y Francia.
+En otros países tiene variados grados de popularidad y competitividad internacional. En África también es popular, por influencia inglesa, en Namibia, Kenia y Zimbabue, y por influencia francesa en Túnez, Costa de Marfil, Madagascar y Marruecos. En América se practica principalmente en Argentina-participante del Rugby Championship, donde tiene gran arraigo y cuya selección ha logrado importantes logros internacionales asimismo tiene cierta popularidad en otros países americanos, como Brasil, Canadá, Uruguay, Chile y Estados Unidos. En Asia, el equipo más destacado es el de Japón. En el resto de Europa, se destaca Italia, que participa en el Torneo de las Seis Naciones. Igualmente está difundido en otros países del continente europeo, sobre todo en Portugal, España y en países del este europeo, como Rumania, Georgia o Rusia. En Oceanía, por influencia australiana y neozelandesa, el rugby un deporte muy popular en Fiyi, Tonga y Samoa, cuna de jugadores destacados en el ámbito internacional.
+A nivel internacional, el rugby está regulado por World Rugby, asociación federativa que cuenta con 118 miembros plenos y asociados.5​ Luego de participar en cuatro ediciones de los Juegos Olímpicos a comienzos del siglo, el rugby fue reincorporado a los deportes olímpicos a partir de Río 2016 en su modalidad de rugby
+Desde los orígenes mismos del rugby y el fútbol actual, a mediados del siglo XIX, se definieron como el alter ego del otro fuerza contra habilidad juego limpio contra juego desleal, etc.7​ Un antiguo dicho británico dice que el fútbol es un juego de caballeros jugado por villanos y el rugby un juego de villanos jugado por caballeros.8​ En el rugby característico el respeto a las reglas que deben practicar tanto los jugadores como el público, y las decisiones del árbitro rara vez son discutidas por los jugadores. Además, se fomenta la sociabilidad, dándose generalmente entre compañeros de equipos y oponentes una cordial reunión después de los partidos, denominada tercer tiempo, junto con los árbitros, entrenadores y parte del público, para hablar acerca del partido.
+Las Leyes del juego de rugby son dictadas por World Rugby International Rugby Board o IRB hasta 2014. Su cuerpo central son las cuatro leyes que regulan el juego el terreno, la pelota, número de jugadores, vestimenta, tiempo, oficiales, modo de jugar, ventaja, modo de marcar, juego sucio, off side fuera de juego y on side en juego, pase forward pase hacia delante o avant, salidas, pelota al suelo sin tackle placaje, tackle placaje portador de la pelota derribado, ruck, maul, mark, touch y line-out, scrum melé, penales y free kicks y tries ensayos
+Las Leyes del juego de rugby también están integradas por un Prólogo, una lista de definiciones de los términos utilizados en las reglas, un apartado de variaciones para menores de 19 años, otro apartado para seven a side variante de siete jugadores por bando, señales de los árbitros, y un extracto de la Regulación 35, sobre vestimenta de los jugadores. La publicación oficial de World Rugby, asimismo, está acompañada de un Documento del juego, complementario de las leyes, que cubre los principios básicos del Rugby.
+En 2009 la IRB aprobó 10 modificaciones sustanciales al reglamento, las Experimental Law Variations Variaciones experimentales de las leyes, conocidas por su sigla en inglés, ELV, que fueron puestas en práctica en todos los torneos oficiales del mundo entre el 1 de agosto de 2008 y el 1 de junio de 2009.
+El tenis, también llamado tenis de campo​ es un deporte de raqueta practicado sobre una pista rectangular compuesta por distintas superficies, las cuales pueden ser cemento, tierra batida o hierba, delimitada por líneas y dividida por una red
+Se disputa entre dos jugadores individuales o entre dos parejas dobles. El objetivo del juego es lanzar una pelota golpeándola con la raqueta de modo que rebote en la otra cancha pasando la red dentro de los límites permitidos del campo del rival, procurando que este no pueda devolverla para conseguir un segundo rebote en el suelo y por ende un punto
+El tenis se juega en una cancha llamada pista en España de forma rectangular, de 23,77 metros 78 pies de longitud por 8,23 m 27 pies de ancho. Para el partido de dobles la cancha será de 10,97 m 36 pies de ancho.
+Las líneas que limitan los extremos de la pista se denominan líneas de fondo y las líneas que limitan los costados de la pista se denominan líneas laterales. A cada lado de la red y paralela a ella, se trazan dos líneas entre las líneas laterales a una distancia de 6,40 m a partir de la red.
+Estas líneas se llaman líneas de saque o de servicio. A cada lado de la red, el área entre la línea de servicio y la red queda dividida por una línea central de servicio en dos partes iguales llamadas cuadros de servicio. La línea central de servicio se traza paralelamente a las líneas laterales de individuales y equidistante a ellas.
+Cada línea de fondo se divide en dos por una marca central de 10 cm de longitud, que se traza dentro de la pista y es paralela a las líneas laterales de individuales. La línea central de servicio y la marca central son de 5 cm de anchura. Las otras líneas de la pista son de entre 2,5 y 5 cm de anchura, excepto las líneas de fondo que pueden ser de hasta 10 cm de anchura. Todas las medidas de la pista se toman por la parte exterior de las líneas. Todas las líneas de la pista tienen que ser del mismo color para que contrasten claramente con el color de la superficie.
+El tenis puede ser practicado en distintas superficies ya conocemos la primera en que se comenzó a jugar el tenis, hierba natural. Existen también otras que con el paso del tiempo se han ido popularizando, como son las pistas duras, tierra batida, tenis quick Estas últimas son elegidas para la apertura de clubes, ya que son las más económicas. Actualmente no figura ninguna competición profesional que se realiza en dicha superficie.
+Las pistas de tenis que tienen un mayor coste económico en su mantenido son las de tierra batida, seguida de hierba natural.
+La pista está dividida en su mitad por una red suspendida de una cuerda o un cable metálico, cuyos extremos están fijados a la parte superior de dos postes o pasan sobre la parte superior de dos postes a una altura de 1,07 metros. La red está totalmente extendida, de manera que llena completamente el espacio entre los dos postes de la red, y la malla es de un entramado lo suficientemente pequeño para que no pase la pelota de tenis. La altura en el centro de la red es de 0,914 m, en donde está sostenida mediante una faja. Hay una banda cubriendo la cuerda o el campo metálico y la parte superior de la red. La faja y la banda son blancas por todas partes. El diámetro máximo de la cuerda o cable metálico es de 8 mm. La anchura máxima de la faja es de 5 cm. La banda es de entre 8 y 10,35 cm de anchura a cada lado.
+La danza o el baile es un arte donde se utiliza el movimiento corporal generalmente con música, como una forma de expresión y de interacción social con fines de entretenimiento, artísticos , reproductivos y religiosos.
+Es el movimiento estático y en desplazamiento que sucede en el espacio y el tiempo que se realiza con una parte y todo el cuerpo del ejecutante, con cierto compás o ritmo como expresión de sentimientos individuales o de símbolos de la cultura y la sociedad. La danza también es una forma de comunicación se usa el lenguaje no verbal entre los seres humanos donde el bailarín o bailarina expresa sentimientos y emociones a través de gestos y movimientos. Se realiza mayormente con música, ya sea una canción, pieza musical o tonos.
+Los primeros en reconocer la danza como un arte fueron los griegos que le dedicaron en su mitología una musa Terpsícore. Su práctica estaba ligada al culto del dios Dioniso y, junto con la poesía y la música, era elemento indispensable de la tragedia griega, donde la catarsis ponía al individuo en relación con los dioses aunque también entre los griegos cumplía la danza una función de comunicación y cohesión social.
+Dentro de la danza existe la coreografía, que es el arte de crear danzas. A la persona que crea coreografías se le conoce como coreógrafo. La danza se puede bailar con un número variado de bailarines, que va desde solitario, en pareja o grupos pero el número por lo general dependerá de la danza que se va a ejecutar y también de su objetivo, y en algunos casos más estructurados, de la idea del coreógrafo.
+La historia de la danza estudia la evolución de la danza a través del tiempo. Desde la prehistoria, el ser humano ha tenido la necesidad de comunicarse corporalmente con movimientos que expresaban sentimientos y estados de ánimo. Algunas pinturas rupestres encontradas muestran dibujos de figuras danzantes, las cuales se asocia con ilustraciones de rituales. Estos primeros movimientos rítmicos sirvieron igualmente para ritualizar acontecimientos importantes nacimientos, defunciones, bodas.
+En Egipto las danzas fueron llevadas por los faraones, en Grecia, se hacían rituales de danza dedicados a los Dioses y Diosas del panteón griego, estos bailes son reconocidos hoy en día como los orígenes del teatro contemporáneo occidental, en Roma, la danza formó parte de las procesiones, festivales y celebraciones en los años 150 A.C.
+En principio, la danza tenía un componente ritual, celebrada en ceremonias de fecundidad, caza o guerra, o de diversa índole religiosa, donde la propia respiración y los latidos del corazón sirvieron para otorgar una primera cadencia a la danza.1​
+Durante la edad media la iglesia rechazó la danza, ya que la consideraba incitadora a la promiscuidad sexual, con el paso de los años las danzas fueron reincorporadas y utilizadas dentro de las tribu del norte en los cultos cristianos.
+En 1661, Luis XIV de Francia autorizó la primera Real Academia de la Danza. En los siguientes siglos el Ballet se daba de forma gratuita.
+El patinaje es un deporte que consiste en deslizarse sobre una superficie regular mediante unos patines colocados en los pies.
+En 1733 el neerlandés Hoans Brinker construyó la primera rueda metálica para patines pero no imaginaba que tendría el auge que tiene hoy en día.
+En 1857 fueron abiertas dos pistas de patinaje en Convent Garden y Strand , dos zonas muy importantes del centro de Londres .
+En 1876 se abre el primer centro de patinaje en París como deporte de moda.
+En 1905 se funda la Amateur Hockey Association en Inglaterra.En 1909 se comenzó a jugar este deporte en el condado de Kent .
+En 1924 se reúnen representantes de Suiza, Francia, Alemania y Gran Bretaña fundando al Federation International Du patinage a roulette En 1946 se crea la Federación Española de Hockey y Patinaje y España debuta en competencias internacionales en 1947 en Lisboa
+El Patinaje sobre hielo Se lleva a cabo sobre una superficie de hielo, bien sea natural o artificial. En el caso de superficie artificial, se utilizan recintos cerrados llamados pabellones o palacios de hielo que pueden contar con graderías para acoger competiciones deportivas de las diversas especialidades de patinaje sobre hielo. En los últimos años se están popularizando las llamadas pistas de hielo sintético. Una superficie en la que se puede patinar como en cualquier otra, pero que no es de hielo, sino de polietileno un tipo de plástico muy resistente. Desde la llegada del hielo sintético también llamado hielo ecológico en la década de los 60, su evolución ha sido espectacular, llegando incluso a alcanzar una similitud del 95 % con el hielo convencional. Además, su uso está proliferando en muchas pistas domésticas, donde el consumo eléctrico es un factor importante a tener en cuenta. En este sentido, la Asociación Nacional de Patinaje sobre Hielo de Gran Bretaña., la federación británica de patinaje, aprobó, y recomienda, estas pistas para su uso. Entre las ventajas de las pistas de hielo sintéticas está el hecho de que su montaje y mantenimiento son muy baratos, ya que no requiere de consumo eléctrico, a lo que habría que sumar que hablamos de un material reciclable.
+El fútbol o futbol​ del inglés británico football, traducido como balompié​ es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno y algunos árbitros que se ocupan de que las normas se cumplan correctamente. Es ampliamente considerado el deporte más popular del mundo, pues lo practican unas 270 millones de personas.4​ También se le conoce como futbol asociación o fútbol asociación, nombre derivado de The Football Association, primera federación oficial del mundo en este deporte y que utilizó ese nombre para distinguirlo de otros deportes que incluyen la palabra futbol o fútbol.5​ En algunos países de habla inglesa también se le conoce como soccer, abreviatura de association, puesto que el nombre de football en esos países se asocia mayoritariamente a otros deportes con esa denominación principalmente en Estados Unidos, donde el nombre football aplica para el fútbol americano, un deporte totalmente distinto.
+El terreno de juego es rectangular de césped natural o artificial, con una portería o arco a cada lado del campo. Se juega mediante una pelota que se debe desplazar a través del campo con cualquier parte del cuerpo que no sean los brazos o las manos, y mayoritariamente con los pies de ahí su nombre. El objetivo es introducirla dentro de la portería o arco contrario, acción que se denomina marcar un gol. El equipo que logre más goles al cabo del partido, de una duración de 90 minutos, es el que resulta ganador del encuentro.
+El juego moderno fue reinventado en Inglaterra tras la formación de la Football Association, cuyas reglas de 1863 son la base del deporte en la actualidad. El organismo rector del fútbol es la Federación Internacional de Fútbol Asociación, más conocida por su acrónimo FIFA. La competición internacional de fútbol más prestigiosa es la Copa Mundial de Fútbol, organizada cada cuatro años por dicho organismo. Este evento es el más famoso y el que cuenta con mayor cantidad de espectadores del mundo, doblando la audiencia de los Juegos Olímpicos.
+El fútbol se juega siguiendo una serie de reglas, llamadas oficialmente reglas de juego. Este deporte se practica con una pelota esférica de cuero u otro material con una circunferencia no mayor a 70 cm y no inferior a 68 cm, y un peso no superior a 450 g y no inferior a 410 g al comienzo del partido, donde dos equipos de once jugadores cada uno diez jugadores de campo y un guardameta compiten por encajar la misma en la portería rival, marcando así un gol. El equipo que más goles haya marcado al final del partido es el ganador si ambos equipos no marcan, o marcan la misma cantidad de goles, entonces se declara un empate. Puede haber excepciones a esta regla véase Duración y resultado más abajo.
+La regla principal es que los jugadores, excepto los guardametas, no pueden tocar intencionalmente la pelota con sus brazos o manos durante el juego, aunque deben usar sus manos para los saques de banda.
+En un juego típico, los jugadores intentan llevar la pelota hasta la portería rival, lo que se denomina gol, a través del control individual de la misma, conocido como regate, o de pases a compañeros o tiros a la portería, la cual está protegida por un guardameta. Los jugadores rivales intentan recuperar el control de la pelota interceptando los pases o quitándole la pelota al jugador que la lleva sin embargo, el contacto físico está limitado. El juego en el fútbol fluye libremente, y se detiene solamente cuando la pelota sale del terreno de juego o cuando el árbitro decide que debe detenerse. Luego de cada pausa, se reinicia el juego con una jugada específica. Al final del partido, el árbitro compensa el tiempo total en minutos que se suspendió el juego en diferentes momentos.
+A nivel profesional, en la mayoría de los partidos se marcan solo unos pocos goles. Por ejemplo, durante la temporada 2006/07 de la Primera División de España, la liga de fútbol española, se marcó un promedio de 2,48 goles por partido.7​
+Las reglas no especifican ninguna otra posición de los jugadores aparte de la del guardameta, portero o arquero, pero con el paso del tiempo se han desarrollado una serie de posiciones en el resto del campo. A grandes rasgos, se identifican tres categorías principales los delanteros, cuya tarea principal es marcar los goles los defensas o defensores, ubicados cerca de su portería, quienes intentan frenar a los delanteros rivales y los centrocampistas, mediocampistas o volantes, que manejan la pelota entre las posiciones anteriores. A estos jugadores se los conoce como jugadores de campo para diferenciarlos del guardameta. A su vez, estas posiciones se subdividen en los lados del campo en que los jugadores se desempeñan la mayor parte del tiempo. Así, por ejemplo pueden existir centrocampistas derechos, centrales de contención e izquierdos. Los diez jugadores de campo pueden distribuirse en cualquier combinación. Por ejemplo, puede haber cuatro defensas, cuatro centrocampistas y dos delanteros 4-4-2 o tres defensas, cuatro centrocampistas y tres delanteros 3-4-3, y la cantidad de jugadores en cada posición determina el estilo de juego del equipo más delanteros y menos defensas por ejemplo 3-3-4 creará un juego más agresivo y ofensivo, mientras que lo contrario por ejemplo 5-3-2 generará un juego más lento y defensivo. Aunque los jugadores suelen mantenerse durante la mayoría del tiempo en una posición, hay pocas restricciones acerca de su movimiento en el campo. El esquema de los jugadores en el terreno de juego se llama la formación del equipo, y esta, junto con la táctica, es trabajo del entrenador.
+asdf
+Ella es siempre, para Sherlock Holmes, la mujer. Rara vez le he oído hablar de ella aplicándole otro
+nombre. A los ojos de Sherlock Holmes, eclipsa y sobrepasa a todo su sexo. No es que haya sentido
+por Irene Adler nada que se parezca al amor.
+Su inteligencia fría, llena de precisión, pero admirablemente equilibrada, era en extremo opuesta
+a cualquier clase de emociones. Yo le considero como la máquina de razonar y de observar más
+perfecta que ha conocido el mundo pero como enamorado, no habría sabido estar en su papel. Si
+alguna vez hablaba de los sentimientos más tiernos, lo hacía con mofa y sarcasmo. Admirables
+como tema para el observador, excelentes para descorrer el velo de los móviles y de los actos de
+las personas. Pero el hombre entrenado en el razonar que admitiese intrusiones semejantes en
+su temperamento delicado y finamente ajustado, daría con ello entrada a un factor perturbador,
+capaz de arrojar la duda sobre todos los resultados de su actividad mental. Ni el echar arenilla en
+un instrumento de gran sensibilidad, ni una hendidura en uno de sus cristales de gran aumento,
+serían más perturbadores que una emoción fuerte en un temperamento como el suyo. Pero con todo
+eso, no existía para él más que una sola mujer, y ésta era la que se llamó Irene Adler, de memoria
+sospechosa y discutible.
+Era poco lo que yo había sabido de Holmes en los últimos tiempos. Mi matrimonio nos había
+apartado al uno del otro. Mi completa felicidad y los diversos intereses que, centrados en el hogar,
+rodean al hombre que se ve por vez primera con casa propia, bastaban para absorber mi atención
+Holmes, por su parte, dotado de alma bohemia, sentía aversión a todas las formas de la vida de
+sociedad, y permanecía en sus habitaciones de Baker Street, enterrado entre sus libracos, alternando
+las semanas entre la cocaína y la ambición, entre los adormilamientos de la droga y la impetuosa
+energía de su propia y ardiente naturaleza. Continuaba con su profunda afición al estudio de los
+hechos criminales, y dedicaba sus inmensas facultades y extraordinarias dotes de observación a
+seguir determinadas pistas y aclarar los hechos misteriosos que la policía oficial había puesto de
+lado por considerarlos insolubles. Habían llegado hasta mí, de cuando en cuando, ciertos vagos
+rumores acerca de sus actividades que lo habían llamado a Odessa cuando el asesinato de Trepoff
+que había puesto en claro la extraña tragedia de los hermanos Atkinson en Trincomalee, y, por
+último, de cierto cometido que había desempeñado de manera tan delicada y con tanto éxito por
+encargo de la familia reinante de Holanda. Sin embargo, fuera de estas señales de su actividad,
+que yo me limité a compartir con todos los lectores de la prensa diaria, era muy poco lo que había
+sabido de mi antiguo amigo y compañero.
+Regresaba yo cierta noche, la del 20 de marzo de 1888, de una visita a un enfermo (porque había
+vuelto a consagrarme al ejercicio de la medicina civil) y tuve que pasar por Baker Street. Al cruzar
+por delante de la puerta que tan gratos recuerdos tenía para mí, y que por fuerza tenía que asociarse
+siempre en mi mente con mi noviazgo y con los tétricos episodios del Estudio en Escarlata, me
+asaltó un vivo deseo de volver a charlar con Holmes y de saber en qué estaba empleando sus
+extraordinarias facultades. Vi sus habitaciones brillantemente iluminadas y, cuando alcé la vista
+hacia ellas, llegué incluso a distinguir su figura, alta y enjuta, al proyectarse por dos veces su negra
+silueta sobre la cortina. Sherlock Holmes se paseaba por la habitación a paso vivo con impaciencia,
+la cabeza caída sobre el pecho las manos entrelazadas por detrás de la espalda. Para mí, que conocía
+todos sus humores y hábitos, su actitud y sus maneras tenían cada cual un significado propio. Otra
+vez estaba dedicado al trabajo. Había salido de las ensoñaciones provocadas por la droga, y estaba
+lanzado por el husmillo fresco de algún problema nuevo Tiré de la campanilla de llamada, y me
+hicieron subir a la habitación que había sido parcialmente mía.
+Sus maneras no eran efusivas. Rara vez lo eran pero, según yo creo, se alegró de verme. Sin hablar
+apenas, pero con mirada cariñosa, me señaló con un vaivén de la mano un sillón, me echó su
+caja de cigarros, me indicó una garrafa de licor y un recipiente de agua de seltz que había en un
+rincón. Luego se colocó en pie delante del fuego, y me paso revista con su característica manera
+introspectiva.
+Le sienta bien el matrimonio dijo a modo de comentario. Me está pareciendo, Watson, que ha
+engordado usted siete libras y media desde la última vez que le vi.
+Siete le contesté.
+Pues, la verdad, yo habría dicho que un poquitín más. Yo creo, Watson, que un poquitín más. Y,
+por lo que veo, otra vez ejerciendo la medicina. No me había dicho usted que tenía el propósito de
+volver a su trabajo.
+Pero cómo lo sabe usted
+Lo estoy viendo lo deduzco. Cómo sé que últimamente ha cogido usted mucha humedad, y que
+tiene a su servicio una doméstica torpe y descuidada
+Mi querido Holmes le dije, esto es demasiado. De haber vivido usted hace unos cuantos siglos,
+con seguridad que habría acabado en la hoguera. Es cierto que el jueves pasado tuve que hacer una
+excursión al campo y que regresé a mi casa todo sucio pero como no es ésta la ropa que llevaba
+no puedo imaginarme de qué saca usted esa deducción. En cuanto a Mary Jane sí que es una
+muchacha incorregible y por eso mi mujer le ha dado ya el aviso de despido pero tampoco sobre
+ese detalle consigo imaginarme de qué manera llega usted a razonarlo.
+Sherlock Holmes se rió por lo bajo y se frotó las manos largas y nerviosas.
+Es la cosa más sencilla dijo. La vista me dice que en la parte interior de su zapato izquierdo
+precisamente en el punto en que se proyecta la claridad del fuego de la chimenea está el cuero
+marcado por seis cortes casi paralelos. Es evidente que han sido producidos por alguien que ha
+rascado sin ningún cuidado el borde de la suela todo alrededor para arrancar el barro seco. Eso
+me dio pie para mi doble deducción de que había salido usted con mal tiempo y de que tiene un
+ejemplar de doméstica londinense que rasca las botas con verdadera mala saña. En lo referente
+al ejercicio de la medicina cuando entra un caballero en mis habitaciones oliendo a cloroformo
+y veo en uno de los costados de su sombrero de copa un bulto saliente que me indica dónde ha
+escondido su estetoscopio tendría yo que ser muy torpe para no dictaminar que se trata de un
+miembro en activo de la profesión médica.
+No pude menos de reírme de la facilidad con que explicaba el proceso de sus deducciones y le
+dije
+Siempre que le oigo aportar sus razones me parece todo tan ridículamente sencillo que yo mismo
+podría haberlo hecho con facilidad aunque en cada uno de los casos me quedo desconcertado
+hasta que me explica todo el proceso que ha seguido. Y sin embargo creo que tengo tan buenos
+ojos como usted.
+Así es en efecto me contestó encendiendo un cigarrillo y dejándose caer en un sillón. Usted ve
+pero no se fija. Es una distinción clara. Por ejemplo usted ha visto con frecuencia los escalones
+para subir desde el vestíbulo a este cuarto.
+Muchas veces.
+Como cuántas
+Centenares de veces.
+Dígame entonces cuántos escalones hay.
+Cuántos Pues no lo sé.
+Lo que yo le decía Usted ha visto pero no se ha fijado. Ahí es donde yo hago hincapié. Pues
+bien yo sé que hay diecisiete escalones porque los he visto y al mismo tiempo me he fijado. A
+propósito ya que le interesan a usted estos pequeños problemas y puesto que ha llevado su bondad
+hasta hacer la crónica de uno o dos de mis insignificantes experimentos quizá sienta interés por
+éste.
+Me tiró desde donde él estaba una hoja de un papel de cartas grueso y de color de rosa que había
+estado hasta ese momento encima de la mesa. Y añadió
+Me llegó por el último correo. Léala en voz alta.
+Era una carta sin fecha sin firma y sin dirección. Decía Esta noche a las ocho menos cuarto
+irá a visitar a usted un caballero que desea consultarle sobre un asunto del más alto interés. Los
+recientes servicios que ha prestado usted a una de las casas reinantes de Europa han demostrado
+que es usted la persona a la que se pueden confiar asuntos cuya importancia no es posible exagerar.
+En esta referencia sobre usted coinciden las distintas fuentes en que nos hemos informado. Esté
+usted en sus habitaciones a la hora que se le indica y no tome a mal que el visitante se presente
+enmascarado.
+Este si que es un caso misterioso comenté yo. Qué cree usted que hay detrás de esto
+No poseo todavía datos. Constituye un craso error el teorizar sin poseer datos. Uno empieza de
+manera insensible a retorcer los hechos para acomodarlos a sus hipótesis en vez de acomodar las
+hipótesis a los hechos. Pero circunscribiéndonos a la carta misma qué saca usted de ella
+Yo examiné con gran cuidado la escritura y el papel.
+Puede presumirse que la persona que ha escrito esto ocupa una posición desahogada hice notar
+esforzándome por imitar los procedimientos de mi compañero. Es un papel que no se compra a
+menos de media corona el paquete. Su cuerpo y su rigidez son característicos.
+Ha dicho usted la palabra exacta característicos comentó Holmes. Ese papel no es en modo
+alguno inglés. Póngalo al trasluz.
+Así lo hice y vi una E mayúscula con una g minúscula una P y una G mayúscula seguida de una
+t minúscula entrelazadas en la fibra misma del papel.
+Qué saca usted de eso preguntó Holmes.
+Debe de ser el nombre del fabricante o mejor dicho su monograma.
+De ninguna manera. La G mayúscula con t minúscula equivale a Gesellschaft que en alemán
+quiere decir Compañía. Es una abreviatura como nuestra Cía. La P es desde luego Papier. Veamos
+las letras Eg. Echemos un vistazo a nuestro Diccionario Geográfico.
+Bajó de uno de los estantes un pesado volumen pardo y continuó
+Eglow Eglonitz Aquí lo tenemos Egria. Es una región de Bohemia en la que se habla alemán
+no lejos de Carlsbad. Es notable por haber sido el escenario de la muerte de Wallenstein y por sus
+muchas fábricas de cristal y de papel. Ajajá amigo mío qué saca usted de este dato
+Le centelleaban los ojos y envió hacia el techo una gran nube triunfal del llamo azul de su cigarrillo.
+El papel ha sido fabricado en Bohemia le dije.
